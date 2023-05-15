@@ -1,0 +1,127 @@
+body {
+    background-color: #12685e;
+}
+#intro {
+    color: white;
+    height: 100vh;
+}
+#intro hr {
+    background-color: white;
+}
+
+@keyframes name {
+    from {
+        color: white;
+    }
+    to {
+        color: #ffd699;
+    }
+}
+@keyframes lineAnimation {
+    100% {
+        width: 65%;
+    }
+}
+#line {
+    width: 1px;
+    border-bottom: 3px solid white;
+    animation: lineAnimation;
+    animation-fill-mode: forwards;
+    animation-duration: 11s;
+}
+#intro h1 {
+    font-size: 96px;
+    animation: name;
+    animation-duration: 5s;
+    animation-iteration-count: 2;
+    animation-direction: alternate-reverse;
+    animation-fill-mode: forwards;
+}
+#intro h3 {
+    padding-top: 20px;
+    animation: name;
+    animation-duration: 5s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
+#intro code {
+    font-size: 1.75rem;
+}
+#arrowDown {
+    font-size: 75px;
+    position: absolute;
+    bottom: 30px;
+    left: calc(50% - 37.5px);
+}
+#about {
+    color: #ffd699;
+    background-color: #0b3735;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px 3px black;
+}
+
+#contact {
+    margin-top: 20px;
+    background-color: #064943;
+    padding: 30px;
+    color: #ffd699;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px 3px black;
+}
+
+h5,
+p {
+    color: white;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+form textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+form .btn-primary {
+    width: 100%;
+    margin-top: 15px;
+    background-color: #124559;
+}
+
+#portfolio {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    background-color: #660522;
+    padding: 30px;
+    color: #ffd699;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px 3px black;
+}
+.card-body p {
+    color: black;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+main {
+    background-color: #064943;
+    color: white;
+    padding: 30px;
+}
+main img {
+    border-radius: 10px;
+}
+.stack {
+    background-color: black;
+    color: white;
+    padding: 3px;
+}
